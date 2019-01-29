@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+  <metadata>
+    <id>TFG.Protobuff35</id>
+    <title>Google Protocol Buffer</title>
+    <summary>Protocol buffers - Google's data interchange format.</summary>
+    <description>See project site for more info.</description>
+    <version>3.6.1</version>
+    <authors>Google Inc.</authors>
+    <owners>protobuf-packages</owners>
+    <licenseUrl>https://github.com/protocolbuffers/protobuf/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/protocolbuffers/protobuf</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Protocol Buffers compiled for .NET 3.5</releaseNotes>
+    <copyright>Copyright 2015, Google Inc.</copyright>
+    <tags>Protocol Buffers Binary Serialization Format Google proto proto3</tags>
+  </metadata>
+  <files>
+      <file src="src/Google.Protobuf/obj/Release/net35/Google.Protobuf.dll" target="lib/net35"/>
+      <file src="src/Google.Protobuf/obj/Release/net35/Google.Protobuf.xml" target="lib/net35"/>
+      <file src="src/Google.Protobuf/obj/Release/net45/Google.Protobuf.dll" target="lib/net45"/>
+      <file src="src/Google.Protobuf/obj/Release/net45/Google.Protobuf.xml" target="lib/net45"/>
+      <file src="src/Google.Protobuf/obj/Release/netstandard1.0/Google.Protobuf.dll" target="lib/netstandard1.0"/>
+      <file src="src/Google.Protobuf/obj/Release/netstandard1.0/Google.Protobuf.xml" target="lib/netstandard1.0"/>
+  </files>
+</package>

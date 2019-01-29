@@ -6,7 +6,7 @@
     <AssemblyTitle>Google Protocol Buffers</AssemblyTitle>
     <VersionPrefix>3.6.1</VersionPrefix>
     <Authors>Google Inc.</Authors>
-    <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0;net45;net35</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyOriginatorKeyFile>../../keys/Google.Protobuf.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
@@ -21,13 +21,13 @@
     <IncludeSource>true</IncludeSource>
   </PropertyGroup>
 
-  <!-- 
+  <!--
     - Override target frameworks on non-Windows to just .NET Core
     - Doing this conditionally in the initial PropertyGroup confuses
     - Visual Studio.
     -->
   <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
-    <TargetFrameworks>netstandard1.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0;net35;net45</TargetFrameworks>
   </PropertyGroup>
 
 </Project>
